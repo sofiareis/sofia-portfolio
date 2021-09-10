@@ -57,15 +57,17 @@ function Resume() {
               </Grid>
               <Grid item xs={9}>
                 <p style={{paddingLeft: 120, paddingBottom: 20, textAlign: 'justify', paddingRight: 30 }}>
-                  <li><strong>Programming Languages: </strong> C, C++, Python, Java, MATLAB, Assembly, 
-                  Verilog, Dart, JavaScript, CSS, SQL
+                  <li><strong>Programming Languages: </strong> C, C++, Python, Java, JavaScript, CSS, MATLAB, 
+                  Assembly, Verilog, Dart
+        
                   </li>
                   <li><strong>Backend: </strong> MySQL, Firebase, Flask, Node.js
                   </li>
                   <li><strong>Fronted: </strong> React, React Native, Figma, HTML
                   </li>
                   <li><strong>Tools: </strong> Android Studio, Visual Studio, 
-                  Eclipse, IntelliJ, SolidWorks, Microsoft Office, Airtable, GitHub, Git
+                  Eclipse, IntelliJ, SolidWorks, Microsoft Office, Airtable, GitHub, Git, Flutter, Squish, JIRA,
+                  Ansys Lumerical Software
                   </li>
                   <li><strong>Operational Systems: </strong>Windows, Linux</li>
                   <li><strong>Hardware: </strong>Arduino, Raspberry Pi, DE1-SoC</li> 
@@ -77,13 +79,26 @@ function Resume() {
           <p>
         <Grid container spacing={2}>
               <Grid item xs={3}>
-                <h1 style={{paddingLeft: 50, paddingTop: 130 }}>Work Experience</h1>
+                <h1 style={{paddingLeft: 50, paddingTop: 190 }}>Work Experience</h1>
               </Grid>
               <Grid item xs={9}>
                 <p style={{paddingLeft: 120, paddingBottom: 20, textAlign: 'justify', paddingRight: 30 }}>
-                <p><strong>Integrated Renewal Program (IRP), Vancouver BC</strong></p>
+
+                <p><strong>Ansys, Vancouver, BC</strong></p>
+                
+                <p style={{paddingBottom: 10}}><strong>R&D Verification Engineer - May, 2021 &ndash; December, 2021</strong></p>
+                <li>Developed and maintained accurate and reliable automated tests in Python using Squish testing tool
+                </li>
+                <li>Gained a basic understanding of how to operate Ansys Lumerical software products</li>
+                <li>Assisted the other teams with troubleshooting and recreating customer issues</li>
+                <li>Identified and reported bugs using a defect tracking system and accurately verified fixes</li>
+                <li>Performed manual software testing on release candidate software builds</li>
+                <li>Supported improvements to the QA process, procedures, and infrastructure</li>
+
                 <br></br>
-                <p style={{paddingBottom: 10}}><strong>Learning Rover Team Lead - September, 2020 &ndash; December, 2020</strong></p>
+                <p><strong>Integrated Renewal Program (IRP), Vancouver BC</strong></p>
+                
+                <p style={{paddingBottom: 10}}><strong>Learning Rover Team Lead - June, 2020 &ndash; December, 2020</strong></p>
                 <li>Updated the database of UBC employees through
                   Airtable management by creating Python API scripts and constantly
                   updating them to match the given data</li>
@@ -95,15 +110,10 @@ function Resume() {
                   to give feedback about the tasks performed, discuss new assignments, 
                   and report and solve any issues</li>
                 <li>Improved teamwork and adaptability skills by working alongside 20 Co-op students</li>
-            
-                <br></br>
-                <p style={{paddingBottom: 10}}><strong> Learning Rover - September, 2020 &ndash; December, 2020</strong></p>
                 <li>Used HTML to update websites by formatting the content and 
                   constantly updating pages</li>
                 <li>Taught and assisted over 200 people on using Workday through video 
                   calls and tutorials</li>
-                <li>Enhanced the ability to present information effectively to diverse 
-                  audiences and to answer questions properly</li>
               </p>
               </Grid>   
           </Grid>
@@ -112,17 +122,11 @@ function Resume() {
           <p>
         <Grid container spacing={2}>
               <Grid item xs={3}>
-                <h1 style={{paddingLeft: 50, paddingTop: 140}}>Extra Curricular Experience</h1>
+                <h1 style={{paddingLeft: 50, paddingTop: 90}}>Extra Curricular Experience</h1>
               </Grid>
               <Grid item xs={9}>
                 <p style={{paddingLeft: 120, paddingBottom: 20, textAlign: 'justify', paddingRight: 30 }}>
-                <p><strong>UBC Rocket - Engineering Design Team, UBC</strong></p>
-                <br></br>
-                <p style={{paddingBottom: 10}}><strong>Avionics Subteam Member - September, 2019 &ndash; April, 2020</strong></p>
-                <li>Helped design and develop the required electronic systems for 
-                  the manufacturing and launch of suborbital rockets</li>
-                <li>Designed tests and implementation for Kalman filters</li>
-                <br></br>
+                
                 <p><strong>Women in Engineering (WiE), UBC </strong></p>
                 <br></br>
                 <p style={{paddingBottom: 10}}><strong>Communications and Marketing Coordinator (Executive Member) - September, 2019 &ndash; April, 2020</strong></p>

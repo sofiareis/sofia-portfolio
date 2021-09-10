@@ -9,6 +9,8 @@ import Sven from './components/pages/Sven';
 import Boba from './components/pages/Boba';
 import Tora from './components/pages/Tora';
 import Risc from './components/pages/Risc';
+import Sharity from './components/pages/Sharity';
+import Chessie from './components/pages/Chessie';
 import ScrollToTop from './components/scroll'
 import {HashRouter as Router, Switch, Route} from 'react-router-dom';
 
@@ -26,6 +28,8 @@ function App() {
         <Route path='/tora' exact component={Tora}/>
         <Route path='/sven' exact component={Sven}/>
         <Route path='/boba' exact component={Boba}/>
+        <Route path='/sharity' exact component={Sharity}/>
+        <Route path='/chessie' exact component={Chessie}/>
         <Route path='/risc' exact component={Risc}/>
       </Switch>
     </Router>

@@ -15,6 +15,8 @@ import alacrity from '../../images/alacrity_certo.png'
 import tora from '../../images/Tora_5.JPG'
 import sven from '../../images/sven.JPG'
 import boba from '../../images/GIF.gif'
+import sharity from '../../images/sharity2.png'
+import chessie from '../../images/chessie.png'
 import { useHistory } from 'react-router-dom';
 import Footer from '../Footer';
 
@@ -92,6 +94,23 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 const cards = [
+
+  {
+    title: 'Sharity',
+    description: 'She + share + charity: a mobile app that connects users to womens shelters...',
+    images: sharity,
+    page: '/sharity',
+
+  },
+
+  {
+    title: 'Chessie',
+    description: 'A chess engine that features a hardware-accelerated chess algorithm and an Android app...',
+    images: chessie,
+    page: '/chessie',
+
+  },
+
   {
     title: 'Alacrity',
     description: 'Alacrity is a web app meant to help students manage their time...',
@@ -99,7 +118,6 @@ const cards = [
     page: '/alacrity',
 
   },
-
 
   {
     title: 'Dancing Robot',
