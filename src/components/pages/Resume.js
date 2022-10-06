@@ -57,19 +57,17 @@ function Resume() {
               </Grid>
               <Grid item xs={9}>
                 <p style={{paddingLeft: 120, paddingBottom: 20, textAlign: 'justify', paddingRight: 30 }}>
-                  <li><strong>Programming Languages: </strong> C, C++, Python, Java, JavaScript, CSS, MATLAB, 
-                  Assembly, Verilog, Dart
-        
+                  <li><strong>Programming Languages: </strong> C, C++, Python, Java, JavaScript, CSS, MATLAB, Assembly, Verilog, Dart
                   </li>
-                  <li><strong>Backend: </strong> MySQL, Firebase, Flask, Node.js
+                  <li><strong>Backend: </strong> MySQL, Firebase, Flask, GraphQL, Prisma
                   </li>
-                  <li><strong>Fronted: </strong> React, React Native, Figma, HTML
+                  <li><strong>Fronted: </strong> React, React Native, Flutter, Figma, HTML
                   </li>
                   <li><strong>Tools: </strong> Android Studio, Visual Studio, 
                   Eclipse, IntelliJ, SolidWorks, Microsoft Office, Airtable, GitHub, Git, Flutter, Squish, JIRA,
                   Ansys Lumerical Software
                   </li>
-                  <li><strong>Operational Systems: </strong>Windows, Linux</li>
+                  <li><strong>Operational Systems: </strong>Windows, Linux, macOS</li>
                   <li><strong>Hardware: </strong>Arduino, Raspberry Pi, DE1-SoC</li> 
               </p>
               </Grid>   
@@ -83,6 +81,15 @@ function Resume() {
               </Grid>
               <Grid item xs={9}>
                 <p style={{paddingLeft: 120, paddingBottom: 20, textAlign: 'justify', paddingRight: 30 }}>
+
+                <p><strong>Ensemble Systems, Vancouver, BC</strong></p>
+                
+                <p style={{paddingBottom: 10}}><strong>Software Developer (Web and Mobile) - January, 2022 &ndash; August, 2022</strong></p>
+                <li>Collaborated alongside two developers to build one of Ensemble’s internal web app using Javascript frontend and GraphQL and Prisma backend</li>
+                <li>Used Flutter to build a media player mobile app, using cross platform as well as native Android and iOS code</li>
+                <li>Worked on building the new Ensemble website using React (TypeScript, CSS, Tailwind)</li>
+                <li>Worked on developing and automating the mail service for Ensemble’s employee web app using NestJS </li>
+                <br></br>
 
                 <p><strong>Ansys, Vancouver, BC</strong></p>
                 

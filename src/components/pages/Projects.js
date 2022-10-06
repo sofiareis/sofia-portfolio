@@ -17,6 +17,8 @@ import sven from '../../images/sven.JPG'
 import boba from '../../images/GIF.gif'
 import sharity from '../../images/sharity2.png'
 import chessie from '../../images/chessie.png'
+import moko from '../../images/moko.png'
+import renew from '../../images/renew.png'
 import { useHistory } from 'react-router-dom';
 import Footer from '../Footer';
 
@@ -94,12 +96,27 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 const cards = [
-
   {
     title: 'Sharity',
     description: 'She + share + charity: a mobile app that connects users to womens shelters...',
     images: sharity,
     page: '/sharity',
+
+  },
+
+  {
+    title: 'Moko',
+    description: 'A mobile app that allows users to buy and sell fresh produce within their local communities...',
+    images: moko,
+    page: '/moko',
+
+  },
+
+  {
+    title: 'Renew',
+    description: 'A mobile app designed to provide support and resources for immigrants in a new country...',
+    images: renew,
+    page: '/renew',
 
   },
 
